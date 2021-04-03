@@ -35,6 +35,6 @@ systemctl enable pymouse_mapper.service
 systemctl start pymouse_mapper.service
 ```
 
-##TODO
+## TODO
 All can be done with a single library maybe
 https://python-evdev.readthedocs.io/en/latest/tutorial.html#injecting-events-using-a-context-manager

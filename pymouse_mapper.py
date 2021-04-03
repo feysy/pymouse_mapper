@@ -1,11 +1,13 @@
 from libinput import LibInput, Event
 from libinput.constant import DeviceCapability, Event as EventType, PointerAxis, Led
 import os
-
+ 
 event_type='EV_KEY'
 prev_screen=['KEY_LEFTMETA', 'KEY_PAGEUP']
 next_screen=['KEY_LEFTMETA', 'KEY_PAGEDOWN']
 keyboard = None
+
+
 
 li = LibInput(True, False, False)
 li.udev_assign_seat('seat0')

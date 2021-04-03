@@ -1,13 +1,13 @@
 # pymouse-mapper
 A small script for mapping mouse buttons to keystrokes on Wayland.
 
-It works by reading from `python-libinput` and triggering key events using `evemu`
+Reads events from `python-libinput` and triggers key events using `evemu`
 depending on the recognized button from the recognized device.
 
-Got a lot of ideas from here https://github.com/mathportillo/wayland-mouse-mapper
+Got most of the idea from here https://github.com/mathportillo/wayland-mouse-mapper
 
 ## Buttons
-Currently only configured to work on wheel horizontal axis to change workspaces
+Currently only configured to work on wheel horizontal axis to change workspaces.
 
 ## Prerequisites
 The script depends on the following executables being available in your PATH:

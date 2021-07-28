@@ -20,6 +20,7 @@ for event in li.get_event():
             print(device.get_name())
             print(device.has_capability(DeviceCapability.KEYBOARD))
     if event.type == EventType.POINTER_AXIS:
+        print(f"evemu-")
         pointer_event = event.get_pointer_event()
         if pointer_event.has_axis(PointerAxis.SCROLL_HORIZONTAL):
             value = pointer_event.get_axis_value(PointerAxis.SCROLL_HORIZONTAL)

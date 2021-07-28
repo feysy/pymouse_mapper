@@ -1,2 +1,3 @@
 python-libinput
 python-evemu
+evdev
